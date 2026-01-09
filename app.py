@@ -209,6 +209,8 @@ def download_pdf(surat_id):
         return "Gagal mengunduh file", 500
 
 #RUN APP
-with app.app_context():
-    db.create_all()
-    logging.info("Database siap digunakan")
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
+
+
