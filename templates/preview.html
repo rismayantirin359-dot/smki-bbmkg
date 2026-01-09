@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preview Surat Pernyataan Menjaga Kerahasiaan Informasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #dee5ec;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        iframe {
+            width: 90%;
+            height: 90vh;
+            border: 2px solid #00529B;
+            border-radius: 10px;
+            background: white;
+        }
+
+        .btn-download {
+            margin-top: 20px;
+            display: inline-block;
+            background: #00529B;
+            color: white;
+            padding: 10px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn-download:hover {
+            background: #003f7a;
+        }
+    </style>
+</head>
+<body>
+    <h2>Surat Pernyataan Menjaga Kerahasiaan Informasi</h2>
+
+    <iframe src="{{ pdf_url }}"></iframe>
+
+    <br>
+
+    <a class="btn-download" href="/download/{{ surat_id }}">
+        Download PDF
+    </a>
+</body>
+</html>

@@ -1,0 +1,500 @@
+2025-12-22 09:02:01,101 | INFO | 127.0.0.1 - - [22/Dec/2025 09:02:01] "GET / HTTP/1.1" 200 -
+2025-12-22 09:02:01,122 | INFO | 127.0.0.1 - - [22/Dec/2025 09:02:01] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 09:02:31,512 | INFO | 127.0.0.1 - - [22/Dec/2025 09:02:31] "POST /generate HTTP/1.1" 200 -
+2025-12-22 09:11:10,664 | INFO | 127.0.0.1 - - [22/Dec/2025 09:11:10] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+2025-12-22 09:11:25,504 | INFO | 127.0.0.1 - - [22/Dec/2025 09:11:25] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+2025-12-22 09:11:35,123 | INFO | 127.0.0.1 - - [22/Dec/2025 09:11:35] "POST /generate HTTP/1.1" 200 -
+2025-12-22 09:12:34,379 | INFO | 127.0.0.1 - - [22/Dec/2025 09:12:34] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+2025-12-22 09:12:40,610 | INFO | 127.0.0.1 - - [22/Dec/2025 09:12:40] "GET / HTTP/1.1" 200 -
+2025-12-22 09:12:40,727 | INFO | 127.0.0.1 - - [22/Dec/2025 09:12:40] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 09:12:59,284 | INFO | 127.0.0.1 - - [22/Dec/2025 09:12:59] "POST /generate HTTP/1.1" 200 -
+2025-12-22 09:25:59,916 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-22 09:25:59,916 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-22 09:27:33,677 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-22 09:27:33,677 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-22 09:28:32,334 | INFO | 127.0.0.1 - - [22/Dec/2025 09:28:32] "GET / HTTP/1.1" 200 -
+2025-12-22 09:28:32,381 | INFO | 127.0.0.1 - - [22/Dec/2025 09:28:32] "GET /static/Logo_BMKG.png HTTP/1.1" 200 -
+2025-12-22 09:28:32,469 | INFO | 127.0.0.1 - - [22/Dec/2025 09:28:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-22 09:28:55,888 | INFO | 127.0.0.1 - - [22/Dec/2025 09:28:55] "POST /generate HTTP/1.1" 200 -
+2025-12-22 09:30:31,847 | INFO | 127.0.0.1 - - [22/Dec/2025 09:30:31] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+2025-12-22 09:30:42,146 | INFO | 127.0.0.1 - - [22/Dec/2025 09:30:42] "GET / HTTP/1.1" 200 -
+2025-12-22 09:30:42,194 | INFO | 127.0.0.1 - - [22/Dec/2025 09:30:42] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 09:31:01,809 | INFO | 127.0.0.1 - - [22/Dec/2025 09:31:01] "POST /generate HTTP/1.1" 200 -
+2025-12-22 09:51:51,283 | INFO | 127.0.0.1 - - [22/Dec/2025 09:51:51] "POST /generate HTTP/1.1" 200 -
+2025-12-22 09:52:03,907 | INFO | 127.0.0.1 - - [22/Dec/2025 09:52:03] "GET / HTTP/1.1" 200 -
+2025-12-22 09:52:03,929 | INFO | 127.0.0.1 - - [22/Dec/2025 09:52:03] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 09:52:22,960 | INFO | 127.0.0.1 - - [22/Dec/2025 09:52:22] "POST /generate HTTP/1.1" 200 -
+2025-12-22 09:52:34,286 | INFO | 127.0.0.1 - - [22/Dec/2025 09:52:34] "GET / HTTP/1.1" 200 -
+2025-12-22 09:52:34,312 | INFO | 127.0.0.1 - - [22/Dec/2025 09:52:34] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 09:53:05,792 | INFO | 127.0.0.1 - - [22/Dec/2025 09:53:05] "POST /generate HTTP/1.1" 200 -
+2025-12-22 09:53:26,339 | INFO | 127.0.0.1 - - [22/Dec/2025 09:53:26] "GET / HTTP/1.1" 200 -
+2025-12-22 09:53:26,446 | INFO | 127.0.0.1 - - [22/Dec/2025 09:53:26] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 09:53:51,952 | INFO | 127.0.0.1 - - [22/Dec/2025 09:53:51] "POST /generate HTTP/1.1" 200 -
+2025-12-22 09:55:31,236 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-22 09:55:31,237 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-22 09:55:42,948 | INFO | 127.0.0.1 - - [22/Dec/2025 09:55:42] "GET / HTTP/1.1" 200 -
+2025-12-22 09:55:43,046 | INFO | 127.0.0.1 - - [22/Dec/2025 09:55:43] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 09:56:03,553 | INFO | 127.0.0.1 - - [22/Dec/2025 09:56:03] "POST /generate HTTP/1.1" 200 -
+2025-12-22 10:16:35,899 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-22 10:16:35,899 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-22 10:16:45,408 | INFO | 127.0.0.1 - - [22/Dec/2025 10:16:45] "GET / HTTP/1.1" 200 -
+2025-12-22 10:16:45,427 | INFO | 127.0.0.1 - - [22/Dec/2025 10:16:45] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 10:17:11,668 | INFO | 127.0.0.1 - - [22/Dec/2025 10:17:11] "POST /generate HTTP/1.1" 200 -
+2025-12-22 10:31:13,990 | INFO | 127.0.0.1 - - [22/Dec/2025 10:31:13] "GET / HTTP/1.1" 200 -
+2025-12-22 10:31:14,006 | INFO | 127.0.0.1 - - [22/Dec/2025 10:31:14] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 10:31:47,872 | INFO | 127.0.0.1 - - [22/Dec/2025 10:31:47] "POST /generate HTTP/1.1" 200 -
+2025-12-22 10:32:12,161 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-22 10:32:12,161 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-22 10:32:19,290 | INFO | 127.0.0.1 - - [22/Dec/2025 10:32:19] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+2025-12-22 10:32:24,907 | INFO | 127.0.0.1 - - [22/Dec/2025 10:32:24] "GET / HTTP/1.1" 200 -
+2025-12-22 10:32:24,937 | INFO | 127.0.0.1 - - [22/Dec/2025 10:32:24] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 10:32:49,713 | INFO | 127.0.0.1 - - [22/Dec/2025 10:32:49] "POST /generate HTTP/1.1" 200 -
+2025-12-22 11:13:04,934 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-22 11:13:04,935 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-22 11:13:22,993 | INFO | 127.0.0.1 - - [22/Dec/2025 11:13:22] "POST /generate HTTP/1.1" 200 -
+2025-12-22 11:15:56,521 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-22 11:15:56,521 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-22 11:16:08,762 | INFO | 127.0.0.1 - - [22/Dec/2025 11:16:08] "GET / HTTP/1.1" 200 -
+2025-12-22 11:16:08,781 | INFO | 127.0.0.1 - - [22/Dec/2025 11:16:08] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 11:16:31,074 | INFO | 127.0.0.1 - - [22/Dec/2025 11:16:31] "POST /generate HTTP/1.1" 200 -
+2025-12-22 11:21:47,358 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-22 11:21:47,358 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-22 11:21:55,613 | INFO | 127.0.0.1 - - [22/Dec/2025 11:21:55] "POST /generate HTTP/1.1" 200 -
+2025-12-22 11:22:05,488 | INFO | 127.0.0.1 - - [22/Dec/2025 11:22:05] "POST /generate HTTP/1.1" 200 -
+2025-12-22 11:22:25,675 | INFO | 127.0.0.1 - - [22/Dec/2025 11:22:25] "POST /generate HTTP/1.1" 200 -
+2025-12-22 14:19:56,876 | INFO | 127.0.0.1 - - [22/Dec/2025 14:19:56] "POST /generate HTTP/1.1" 200 -
+2025-12-22 14:36:17,455 | INFO | 127.0.0.1 - - [22/Dec/2025 14:36:17] "POST /generate HTTP/1.1" 200 -
+2025-12-22 14:46:05,928 | INFO | 127.0.0.1 - - [22/Dec/2025 14:46:05] "GET / HTTP/1.1" 200 -
+2025-12-22 14:46:05,973 | INFO | 127.0.0.1 - - [22/Dec/2025 14:46:05] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 14:46:09,118 | INFO | 127.0.0.1 - - [22/Dec/2025 14:46:09] "GET / HTTP/1.1" 200 -
+2025-12-22 14:46:09,143 | INFO | 127.0.0.1 - - [22/Dec/2025 14:46:09] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-22 14:46:25,737 | INFO | 127.0.0.1 - - [22/Dec/2025 14:46:25] "POST /generate HTTP/1.1" 200 -
+2025-12-23 08:10:42,685 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-23 08:10:42,686 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-23 08:10:58,190 | INFO | 127.0.0.1 - - [23/Dec/2025 08:10:58] "GET / HTTP/1.1" 200 -
+2025-12-23 08:10:58,317 | INFO | 127.0.0.1 - - [23/Dec/2025 08:10:58] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-23 08:10:58,483 | INFO | 127.0.0.1 - - [23/Dec/2025 08:10:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-23 08:11:30,223 | INFO | 127.0.0.1 - - [23/Dec/2025 08:11:30] "POST /generate HTTP/1.1" 200 -
+2025-12-23 09:29:48,901 | INFO | 127.0.0.1 - - [23/Dec/2025 09:29:48] "GET / HTTP/1.1" 200 -
+2025-12-23 09:29:48,967 | INFO | 127.0.0.1 - - [23/Dec/2025 09:29:48] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-24 09:36:13,002 | WARNING | Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B233F46CF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /dokumen-pernyataan-menjaga-kerahasiaan?location=
+2025-12-24 09:36:17,464 | WARNING | Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B233F3EC10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /dokumen-pernyataan-menjaga-kerahasiaan?location=
+2025-12-24 09:36:22,348 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B233F3ED50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /dokumen-pernyataan-menjaga-kerahasiaan?location=
+2025-12-24 09:36:28,055 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B233FAA780>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /dokumen-pernyataan-menjaga-kerahasiaan?location=
+2025-12-24 09:36:35,327 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B233FAA8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /dokumen-pernyataan-menjaga-kerahasiaan?location=
+2025-12-24 09:46:27,536 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-24 09:46:27,537 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-24 09:48:40,164 | INFO | 127.0.0.1 - - [24/Dec/2025 09:48:40] "GET / HTTP/1.1" 200 -
+2025-12-24 09:48:40,328 | INFO | 127.0.0.1 - - [24/Dec/2025 09:48:40] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-24 09:48:40,344 | INFO | 127.0.0.1 - - [24/Dec/2025 09:48:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-24 09:49:25,071 | INFO | 127.0.0.1 - - [24/Dec/2025 09:49:25] "POST /generate HTTP/1.1" 200 -
+2025-12-24 10:12:16,532 | INFO | 127.0.0.1 - - [24/Dec/2025 10:12:16] "POST /generate HTTP/1.1" 200 -
+2025-12-24 10:43:08,382 | INFO | 127.0.0.1 - - [24/Dec/2025 10:43:08] "GET / HTTP/1.1" 200 -
+2025-12-24 10:43:08,457 | INFO | 127.0.0.1 - - [24/Dec/2025 10:43:08] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-24 10:44:01,278 | INFO | 127.0.0.1 - - [24/Dec/2025 10:44:01] "POST /generate HTTP/1.1" 200 -
+2025-12-24 10:54:23,092 | INFO | 127.0.0.1 - - [24/Dec/2025 10:54:23] "POST /generate HTTP/1.1" 200 -
+2025-12-24 11:07:35,211 | INFO | 127.0.0.1 - - [24/Dec/2025 11:07:35] "GET / HTTP/1.1" 200 -
+2025-12-24 11:07:35,243 | INFO | 127.0.0.1 - - [24/Dec/2025 11:07:35] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-24 14:44:02,221 | INFO | 127.0.0.1 - - [24/Dec/2025 14:44:02] "GET / HTTP/1.1" 200 -
+2025-12-24 14:44:02,306 | INFO | 127.0.0.1 - - [24/Dec/2025 14:44:02] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2025-12-24 14:44:33,541 | INFO | 127.0.0.1 - - [24/Dec/2025 14:44:33] "POST /generate HTTP/1.1" 200 -
+2026-01-02 08:21:48,228 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-02 08:21:48,242 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-02 08:23:58,451 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-02 08:23:58,462 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-02 08:23:58,513 | INFO | Database siap digunakan
+2026-01-02 08:23:58,552 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-02 08:23:58,552 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-02 08:24:29,072 | INFO | 127.0.0.1 - - [02/Jan/2026 08:24:29] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+2026-01-02 08:24:29,319 | INFO | 127.0.0.1 - - [02/Jan/2026 08:24:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-02 08:24:35,642 | INFO | 127.0.0.1 - - [02/Jan/2026 08:24:35] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+2026-01-02 08:24:47,285 | INFO | Halaman form diakses
+2026-01-02 08:24:47,586 | INFO | 127.0.0.1 - - [02/Jan/2026 08:24:47] "GET / HTTP/1.1" 200 -
+2026-01-02 08:24:47,776 | INFO | 127.0.0.1 - - [02/Jan/2026 08:24:47] "GET /static/Logo_BMKG.png HTTP/1.1" 200 -
+2026-01-02 08:24:47,795 | INFO | 127.0.0.1 - - [02/Jan/2026 08:24:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-02 08:26:26,667 | INFO | Halaman form diakses
+2026-01-02 08:26:26,670 | INFO | 127.0.0.1 - - [02/Jan/2026 08:26:26] "GET / HTTP/1.1" 200 -
+2026-01-02 08:26:26,773 | INFO | 127.0.0.1 - - [02/Jan/2026 08:26:26] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-02 08:26:26,804 | INFO | 127.0.0.1 - - [02/Jan/2026 08:26:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-02 08:27:04,026 | INFO | Generate PDF dimulai | nama=rismayanti
+2026-01-02 08:27:04,469 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_rismayanti_20260102_082704.pdf
+2026-01-02 08:27:04,544 | INFO | Data tersimpan ke DB | nama=rismayanti | nip=230210501002
+2026-01-02 08:27:04,598 | INFO | 127.0.0.1 - - [02/Jan/2026 08:27:04] "POST /generate HTTP/1.1" 200 -
+2026-01-02 11:20:21,081 | INFO | Generate PDF dimulai | nama=risma
+2026-01-02 11:20:21,501 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_risma_20260102_112021.pdf
+2026-01-02 11:20:21,600 | INFO | Data tersimpan ke DB | nama=risma | nip=2302
+2026-01-02 11:20:21,609 | INFO | 127.0.0.1 - - [02/Jan/2026 11:20:21] "POST /generate HTTP/1.1" 200 -
+2026-01-02 14:33:56,334 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-02 14:33:56,353 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-02 14:33:56,419 | INFO | Database siap digunakan
+2026-01-02 14:33:56,633 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-02 14:33:56,633 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-02 14:34:25,160 | INFO | Generate PDF dimulai | nama=risma
+2026-01-02 14:34:25,408 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_risma_20260102_143425.pdf
+2026-01-02 14:34:25,423 | INFO | Data tersimpan ke DB | nama=risma | nip=2302
+2026-01-02 14:34:25,454 | INFO | 127.0.0.1 - - [02/Jan/2026 14:34:25] "POST /generate HTTP/1.1" 200 -
+2026-01-02 14:34:29,813 | INFO | 127.0.0.1 - - [02/Jan/2026 14:34:29] "[33mGET /download/ HTTP/1.1[0m" 404 -
+2026-01-02 14:44:51,170 | INFO | Halaman form diakses
+2026-01-02 14:44:51,285 | INFO | 127.0.0.1 - - [02/Jan/2026 14:44:51] "GET / HTTP/1.1" 200 -
+2026-01-02 14:44:51,521 | INFO | 127.0.0.1 - - [02/Jan/2026 14:44:51] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-02 14:45:14,110 | INFO | Generate PDF dimulai | nama=shelfi
+2026-01-02 14:45:14,200 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_shelfi_20260102_144514.pdf
+2026-01-02 14:45:14,207 | INFO | Data tersimpan ke DB | nama=shelfi | nip=230210501002
+2026-01-02 14:45:14,208 | INFO | 127.0.0.1 - - [02/Jan/2026 14:45:14] "POST /generate HTTP/1.1" 200 -
+2026-01-02 14:45:17,602 | INFO | 127.0.0.1 - - [02/Jan/2026 14:45:17] "[33mGET /download/ HTTP/1.1[0m" 404 -
+2026-01-02 14:46:09,606 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-02 14:46:09,620 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-02 14:46:09,644 | INFO | Database siap digunakan
+2026-01-02 14:46:09,668 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-02 14:46:09,668 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-02 14:51:16,822 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-02 14:51:16,835 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-02 14:51:16,861 | INFO | Database siap digunakan
+2026-01-02 14:51:16,877 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-02 14:51:16,877 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-02 14:51:27,991 | INFO | Halaman form diakses
+2026-01-02 14:51:28,005 | INFO | 127.0.0.1 - - [02/Jan/2026 14:51:28] "GET / HTTP/1.1" 200 -
+2026-01-02 14:51:28,229 | INFO | 127.0.0.1 - - [02/Jan/2026 14:51:28] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-02 14:51:49,451 | INFO | Generate PDF dimulai | nama=ririn
+2026-01-02 14:51:49,563 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_ririn_20260102_145149.pdf
+2026-01-02 14:51:49,573 | INFO | Data tersimpan ke DB | nama=ririn | nip=230210501002
+2026-01-02 14:51:49,608 | INFO | 127.0.0.1 - - [02/Jan/2026 14:51:49] "POST /generate HTTP/1.1" 200 -
+2026-01-02 14:51:54,172 | INFO | Download PDF | id=10 | file=Surat_Pernyataan_ririn_20260102_145149.pdf
+2026-01-02 14:51:54,173 | INFO | 127.0.0.1 - - [02/Jan/2026 14:51:54] "GET /download/10 HTTP/1.1" 200 -
+2026-01-02 14:52:46,151 | INFO | 127.0.0.1 - - [02/Jan/2026 14:52:46] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+2026-01-02 14:52:58,066 | INFO | Generate PDF dimulai | nama=riri
+2026-01-02 14:52:58,160 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_riri_20260102_145258.pdf
+2026-01-02 14:52:58,167 | INFO | Data tersimpan ke DB | nama=riri | nip=230210501002
+2026-01-02 14:52:58,170 | INFO | 127.0.0.1 - - [02/Jan/2026 14:52:58] "POST /generate HTTP/1.1" 200 -
+2026-01-02 14:53:32,137 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-02 14:53:32,150 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-02 14:53:32,173 | INFO | Database siap digunakan
+2026-01-02 14:53:32,189 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-02 14:53:32,189 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-02 14:53:47,104 | INFO | Generate PDF dimulai | nama=ririn
+2026-01-02 14:53:47,215 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_ririn_20260102_145347.pdf
+2026-01-02 14:53:47,229 | INFO | Data tersimpan ke DB | nama=ririn | nip=23021050100
+2026-01-02 14:53:47,242 | INFO | 127.0.0.1 - - [02/Jan/2026 14:53:47] "POST /generate HTTP/1.1" 200 -
+2026-01-02 14:54:26,654 | INFO | Download PDF | id=12 | file=Surat_Pernyataan_ririn_20260102_145347.pdf
+2026-01-02 14:54:26,655 | INFO | 127.0.0.1 - - [02/Jan/2026 14:54:26] "GET /download/12 HTTP/1.1" 200 -
+2026-01-05 07:42:35,603 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-05 07:42:35,630 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-05 07:42:35,672 | INFO | Database siap digunakan
+2026-01-05 07:42:35,691 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-05 07:42:35,691 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-05 07:43:01,018 | INFO | Halaman form diakses
+2026-01-05 07:43:01,033 | INFO | 127.0.0.1 - - [05/Jan/2026 07:43:01] "GET / HTTP/1.1" 200 -
+2026-01-05 07:43:01,459 | INFO | 127.0.0.1 - - [05/Jan/2026 07:43:01] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-05 07:43:01,495 | INFO | 127.0.0.1 - - [05/Jan/2026 07:43:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-05 07:43:05,370 | INFO | Halaman form diakses
+2026-01-05 07:43:05,374 | INFO | 127.0.0.1 - - [05/Jan/2026 07:43:05] "GET / HTTP/1.1" 200 -
+2026-01-05 07:43:05,405 | INFO | 127.0.0.1 - - [05/Jan/2026 07:43:05] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-05 07:43:57,183 | INFO | Generate PDF dimulai | nama=risma
+2026-01-05 07:43:57,645 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_risma_20260105_074357.pdf
+2026-01-05 07:43:57,765 | INFO | Data tersimpan ke DB | nama=risma | nip=1234567899
+2026-01-05 07:43:57,791 | INFO | 127.0.0.1 - - [05/Jan/2026 07:43:57] "POST /generate HTTP/1.1" 200 -
+2026-01-05 07:44:32,502 | INFO | Download PDF | id=13 | file=Surat_Pernyataan_risma_20260105_074357.pdf
+2026-01-05 07:44:32,503 | INFO | 127.0.0.1 - - [05/Jan/2026 07:44:32] "GET /download/13 HTTP/1.1" 200 -
+2026-01-05 14:14:25,976 | INFO | Generate PDF dimulai | nama=Rismayanti
+2026-01-05 14:14:26,195 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_Rismayanti_20260105_141425.pdf
+2026-01-05 14:14:26,265 | INFO | Data tersimpan ke DB | nama=Rismayanti | nip=12345678
+2026-01-05 14:14:26,280 | INFO | 127.0.0.1 - - [05/Jan/2026 14:14:26] "POST /generate HTTP/1.1" 200 -
+2026-01-05 15:26:36,644 | INFO | Generate PDF dimulai | nama=Rismayanti
+2026-01-05 15:26:36,743 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_Rismayanti_20260105_152636.pdf
+2026-01-05 15:26:36,755 | INFO | Data tersimpan ke DB | nama=Rismayanti | nip=12345678
+2026-01-05 15:26:36,766 | INFO | 127.0.0.1 - - [05/Jan/2026 15:26:36] "POST /generate HTTP/1.1" 200 -
+2026-01-05 15:26:56,018 | INFO | Halaman form diakses
+2026-01-05 15:26:56,026 | INFO | 127.0.0.1 - - [05/Jan/2026 15:26:56] "GET / HTTP/1.1" 200 -
+2026-01-05 15:26:56,058 | INFO | 127.0.0.1 - - [05/Jan/2026 15:26:56] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-06 08:09:46,137 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-06 08:09:46,186 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-06 08:09:46,219 | INFO | Database siap digunakan
+2026-01-06 08:09:46,257 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-06 08:09:46,258 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-06 08:09:56,291 | INFO | Halaman form diakses
+2026-01-06 08:09:56,359 | INFO | 127.0.0.1 - - [06/Jan/2026 08:09:56] "GET / HTTP/1.1" 200 -
+2026-01-06 08:09:56,531 | INFO | 127.0.0.1 - - [06/Jan/2026 08:09:56] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-06 08:09:56,548 | INFO | 127.0.0.1 - - [06/Jan/2026 08:09:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-06 08:10:25,282 | INFO | Generate PDF dimulai | nama=Rismayanti
+2026-01-06 08:10:25,596 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_Rismayanti_20260106_081025.pdf
+2026-01-06 08:10:25,613 | INFO | Data tersimpan ke DB | nama=Rismayanti | nip=230210501002
+2026-01-06 08:10:25,654 | INFO | 127.0.0.1 - - [06/Jan/2026 08:10:25] "POST /generate HTTP/1.1" 200 -
+2026-01-06 08:18:07,223 | INFO | Download PDF | id=1 | file=Surat_Pernyataan_Rismayanti_20260106_081025.pdf
+2026-01-06 08:18:07,225 | INFO | 127.0.0.1 - - [06/Jan/2026 08:18:07] "GET /download/1 HTTP/1.1" 200 -
+2026-01-07 08:07:00,627 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-07 08:07:00,654 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-07 08:07:00,681 | INFO | Database siap digunakan
+2026-01-07 08:07:00,717 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-07 08:07:00,717 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-07 08:07:21,096 | INFO | Halaman form diakses
+2026-01-07 08:07:21,228 | INFO | 127.0.0.1 - - [07/Jan/2026 08:07:21] "GET / HTTP/1.1" 200 -
+2026-01-07 08:07:21,353 | INFO | 127.0.0.1 - - [07/Jan/2026 08:07:21] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-07 08:07:21,364 | INFO | 127.0.0.1 - - [07/Jan/2026 08:07:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-07 08:08:50,305 | INFO | Generate PDF dimulai | nama=shelfi
+2026-01-07 08:08:50,452 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_shelfi_20260107_080850.pdf
+2026-01-07 08:08:50,492 | INFO | Data tersimpan ke DB | nama=shelfi | nip=12345678
+2026-01-07 08:08:50,519 | INFO | 127.0.0.1 - - [07/Jan/2026 08:08:50] "POST /generate HTTP/1.1" 200 -
+2026-01-07 08:09:03,041 | INFO | Download PDF | id=2 | file=Surat_Pernyataan_shelfi_20260107_080850.pdf
+2026-01-07 08:09:03,042 | INFO | 127.0.0.1 - - [07/Jan/2026 08:09:03] "GET /download/2 HTTP/1.1" 200 -
+2026-01-08 07:46:37,126 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-08 07:46:37,154 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-08 07:46:37,175 | INFO | Database siap digunakan
+2026-01-08 07:46:37,232 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-08 07:46:37,233 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-08 07:49:47,882 | INFO | Halaman form diakses
+2026-01-08 07:49:48,008 | INFO | 127.0.0.1 - - [08/Jan/2026 07:49:48] "GET / HTTP/1.1" 200 -
+2026-01-08 07:49:48,195 | INFO | 127.0.0.1 - - [08/Jan/2026 07:49:48] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-08 07:49:48,217 | INFO | 127.0.0.1 - - [08/Jan/2026 07:49:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-08 07:51:21,060 | INFO | Generate PDF dimulai | nama=risma
+2026-01-08 07:51:21,539 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_risma_20260108_075121.pdf
+2026-01-08 07:51:21,564 | INFO | Data tersimpan ke DB | nama=risma | nip=1234567899
+2026-01-08 07:51:21,607 | INFO | 127.0.0.1 - - [08/Jan/2026 07:51:21] "POST /generate HTTP/1.1" 200 -
+2026-01-08 12:10:58,324 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-08 12:10:58,350 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-08 12:10:58,537 | INFO | Database siap digunakan
+2026-01-08 12:10:58,560 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-08 12:10:58,560 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-08 12:11:29,434 | INFO | Halaman form diakses
+2026-01-08 12:11:29,448 | INFO | 127.0.0.1 - - [08/Jan/2026 12:11:29] "GET / HTTP/1.1" 200 -
+2026-01-08 12:11:29,810 | INFO | 127.0.0.1 - - [08/Jan/2026 12:11:29] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-08 12:11:29,862 | INFO | 127.0.0.1 - - [08/Jan/2026 12:11:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-08 12:36:51,711 | INFO | Generate PDF dimulai | nama=Hikma
+2026-01-08 12:36:52,281 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_Hikma_20260108_123651.pdf
+2026-01-08 12:36:52,360 | INFO | Data tersimpan ke DB | nama=Hikma | nip=1234567890
+2026-01-08 12:36:52,395 | INFO | 127.0.0.1 - - [08/Jan/2026 12:36:52] "POST /generate HTTP/1.1" 200 -
+2026-01-08 12:37:05,691 | INFO | Download PDF | id=4 | file=Surat_Pernyataan_Hikma_20260108_123651.pdf
+2026-01-08 12:37:05,695 | INFO | 127.0.0.1 - - [08/Jan/2026 12:37:05] "GET /download/4 HTTP/1.1" 200 -
+2026-01-08 13:23:34,036 | INFO | Generate PDF dimulai | nama=Lika
+2026-01-08 13:23:34,182 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_Lika_20260108_132334.pdf
+2026-01-08 13:23:34,200 | INFO | Data tersimpan ke DB | nama=Lika | nip=1234567800
+2026-01-08 13:23:34,206 | INFO | 127.0.0.1 - - [08/Jan/2026 13:23:34] "POST /generate HTTP/1.1" 200 -
+2026-01-08 13:25:21,658 | INFO | Halaman form diakses
+2026-01-08 13:25:21,664 | INFO | 127.0.0.1 - - [08/Jan/2026 13:25:21] "GET / HTTP/1.1" 200 -
+2026-01-08 13:25:21,690 | INFO | 127.0.0.1 - - [08/Jan/2026 13:25:21] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-09 09:06:33,866 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-09 09:06:33,923 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-09 09:06:33,955 | INFO | Database siap digunakan
+2026-01-09 09:06:33,969 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-09 09:06:33,969 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-09 09:06:46,058 | INFO | Halaman form diakses
+2026-01-09 09:06:46,143 | INFO | 127.0.0.1 - - [09/Jan/2026 09:06:46] "GET / HTTP/1.1" 200 -
+2026-01-09 09:06:46,358 | INFO | 127.0.0.1 - - [09/Jan/2026 09:06:46] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-09 09:06:46,379 | INFO | 127.0.0.1 - - [09/Jan/2026 09:06:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-09 09:16:20,400 | INFO | Generate PDF dimulai | nama=RISMAYANTI
+2026-01-09 09:16:20,679 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_RISMAYANTI_20260109_091620.pdf
+2026-01-09 09:16:20,709 | ERROR | Terjadi kesalahan saat generate PDF
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 813, in _write_bytes
+    self._sock.sendall(data)
+    ~~~~~~~~~~~~~~~~~~^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 574, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 865, in _execute_command
+    self._write_bytes(packet)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 816, in _write_bytes
+    raise err.OperationalError(
+        CR.CR_SERVER_GONE_ERROR, f"MySQL server has gone away ({e!r})"
+    )
+pymysql.err.OperationalError: (2006, "MySQL server has gone away (ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\FILE_RISMAYANTI_UNM\PROJEK PI\Surat Kerahasiaan\app.py", line 163, in generate
+    db.session.commit()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\scoping.py", line 597, in commit
+    return self._proxied.commit()
+           ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "<string>", line 2, in commit
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 1311, in commit
+    self._prepare_impl()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 1286, in _prepare_impl
+    self.session.flush()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 4331, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 4466, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 4427, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1233, in _emit_insert_statements
+    result = connection.execute(
+        statement,
+        params,
+        execution_options=execution_options,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 574, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 865, in _execute_command
+    self._write_bytes(packet)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 816, in _write_bytes
+    raise err.OperationalError(
+        CR.CR_SERVER_GONE_ERROR, f"MySQL server has gone away ({e!r})"
+    )
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2006, "MySQL server has gone away (ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))")
+[SQL: INSERT INTO surat_pernyataan (nama, nip, instansi, kegiatan, periode, pdf_object, created_at) VALUES (%(nama)s, %(nip)s, %(instansi)s, %(kegiatan)s, %(periode)s, %(pdf_object)s, %(created_at)s)]
+[parameters: {'nama': 'RISMAYANTI', 'nip': '1234567800', 'instansi': 'UNM', 'kegiatan': 'PI', 'periode': 'Sesuai Kontrak', 'pdf_object': '2026/01/Surat_Pernyataan_RISMAYANTI_20260109_091620.pdf', 'created_at': datetime.datetime(2026, 1, 9, 9, 16, 20, 398838, tzinfo=<DstTzInfo 'Asia/Makassar' WITA+8:00:00 STD>)}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-09 09:16:21,007 | INFO | 127.0.0.1 - - [09/Jan/2026 09:16:21] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2026-01-09 09:21:06,586 | INFO | Aplikasi Flask berhasil diinisialisasi
+2026-01-09 09:21:06,596 | INFO | MinIO terhubung | bucket=dokumen-pernyataan-menjaga-kerahasiaan
+2026-01-09 09:21:06,621 | INFO | Database siap digunakan
+2026-01-09 09:21:06,634 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-09 09:21:06,634 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-09 09:21:16,882 | INFO | 127.0.0.1 - - [09/Jan/2026 09:21:16] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+2026-01-09 09:21:54,666 | INFO | Halaman form diakses
+2026-01-09 09:21:54,680 | INFO | 127.0.0.1 - - [09/Jan/2026 09:21:54] "GET / HTTP/1.1" 200 -
+2026-01-09 09:21:54,827 | INFO | 127.0.0.1 - - [09/Jan/2026 09:21:54] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-09 09:22:10,322 | INFO | Generate PDF dimulai | nama=Aldi
+2026-01-09 09:22:10,439 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_Aldi_20260109_092210.pdf
+2026-01-09 09:22:10,463 | INFO | Data tersimpan ke DB | nama=Aldi | nip=1234567800
+2026-01-09 09:22:10,522 | INFO | 127.0.0.1 - - [09/Jan/2026 09:22:10] "POST /generate HTTP/1.1" 200 -
+2026-01-09 09:23:59,247 | INFO | Generate PDF dimulai | nama=RISMAYANTI
+2026-01-09 09:23:59,354 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_RISMAYANTI_20260109_092359.pdf
+2026-01-09 09:23:59,362 | INFO | Data tersimpan ke DB | nama=RISMAYANTI | nip=1234567800
+2026-01-09 09:23:59,367 | INFO | 127.0.0.1 - - [09/Jan/2026 09:23:59] "POST /generate HTTP/1.1" 200 -
+2026-01-09 09:59:22,259 | INFO | Halaman form diakses
+2026-01-09 09:59:22,278 | INFO | 127.0.0.1 - - [09/Jan/2026 09:59:22] "GET / HTTP/1.1" 200 -
+2026-01-09 09:59:22,316 | INFO | 127.0.0.1 - - [09/Jan/2026 09:59:22] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -
+2026-01-09 09:59:47,743 | INFO | Generate PDF dimulai | nama=Elvira
+2026-01-09 09:59:47,853 | INFO | PDF berhasil diupload | object=2026/01/Surat_Pernyataan_Elvira_20260109_095947.pdf
+2026-01-09 09:59:47,868 | INFO | Data tersimpan ke DB | nama=Elvira | nip=1234567890
+2026-01-09 09:59:47,874 | INFO | 127.0.0.1 - - [09/Jan/2026 09:59:47] "POST /generate HTTP/1.1" 200 -
+2026-01-09 10:28:09,661 | INFO | Halaman form diakses
+2026-01-09 10:28:09,684 | INFO | 127.0.0.1 - - [09/Jan/2026 10:28:09] "GET / HTTP/1.1" 200 -
+2026-01-09 10:28:09,751 | INFO | 127.0.0.1 - - [09/Jan/2026 10:28:09] "[36mGET /static/Logo_BMKG.png HTTP/1.1[0m" 304 -

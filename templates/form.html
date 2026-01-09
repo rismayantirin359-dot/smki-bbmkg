@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat Pernyataan Menjaga Kerahasiaan Informasi</title>
+
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #e0f6ff, #ffffff);
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+    }
+
+    .container {
+        background: #ffffff;
+        width: 100%;
+        max-width: 380px;
+        padding: 18px 20px;
+        border-radius: 14px;
+        box-shadow: 0 4px 14px rgba(0, 155, 83, 0.22);
+        border-top: 6px solid #00A6DA;
+    }
+
+    h2 {
+        margin: 0 0 8px 0;
+        font-size: 16px;
+        color: #00529B;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .logo-container {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .logo-container img {
+        width: 70px;
+    }
+
+    label {
+        font-weight: bold;
+        margin-top: 8px;
+        display: block;
+        font-size: 12px;
+        color: #00529B;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 7px 9px;
+        margin-top: 4px;
+        border: 1.5px solid #00A6DA;
+        border-radius: 5px;
+        font-size: 12px;
+        background: #f9fcff;
+        box-sizing: border-box;
+        transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    input[type="text"]:focus {
+        outline: none;
+        border-color: #009B4D;
+        box-shadow: 0 0 5px rgba(0, 155, 77, 0.4);
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            max-width: 720px;
+        }
+
+        .form-grid {
+            grid-template-columns: 1.2fr 0.8fr;
+        }
+    }
+
+    #signature-pad {
+        border: 2px solid #00529B;
+        border-radius: 8px;
+        width: 100%;
+        height: 140px;
+        background: #ffffff;
+        cursor: crosshair;
+        margin-top: 6px;
+    }
+
+    .btn-clear {
+        margin-top: 6px;
+        background: #d9534f;
+        color: #fff;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        transition: background 0.2s;
+    }
+
+    .btn-clear:hover {
+        background: #b52b27;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        padding: 9px;
+        margin-top: 14px;
+        background: linear-gradient(90deg, #00529B, #00A6DA);
+        color: white;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        transition: background 0.2s, transform 0.2s;
+    }
+
+    button[type="submit"]:hover {
+        background: linear-gradient(90deg, #00407A, #008FBA);
+        transform: translateY(-1px);
+    }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Form Surat Pernyataan Menjaga Kerahasiaan Informasi</h2>
+
+    <div class="logo-container">
+        <img src="{{ url_for('static', filename='Logo_BMKG.png') }}" alt="Logo BMKG">
+    </div>
+
+    <form action="/generate" method="POST" onsubmit="saveSignature()">
+
+        <div class="form-grid">
+
+            <div>
+                <label>Nama:</label>
+                <input type="text" name="nama" required>
+
+                <label>NIP/NIK:</label>
+                <input type="text" name="nip" required>
+
+                <label>Instansi:</label>
+                <input type="text" name="instansi" required>
+
+                <label>Nama Kegiatan/Pekerjaan:</label>
+                <input type="text" name="kegiatan" required>
+
+                <label>Periode Penugasan:</label>
+                <input type="text" name="periode" required>
+
+                <label>Tempat Pembuatan Surat (Kota):</label>
+                <input type="text" name="kota" required>
+            </div>
+
+            <div>
+                <label>Tanda Tangan:</label>
+                <canvas id="signature-pad"></canvas>
+
+                <input type="hidden" name="ttd_base64" id="ttd_base64">
+
+                <button type="button" class="btn-clear" onclick="clearPad()">
+                    Hapus Tanda Tangan
+                </button>
+            </div>
+
+        </div>
+
+        <button type="submit">Generate PDF</button>
+    </form>
+</div>
+
+<script>
+let canvas = document.getElementById("signature-pad");
+let ctx = canvas.getContext("2d");
+
+function resizeCanvasHD() {
+    const ratio = window.devicePixelRatio || 2;
+    const width = canvas.offsetWidth;
+    const height = canvas.offsetHeight;
+
+    canvas.width = width * ratio;
+    canvas.height = height * ratio;
+
+    canvas.style.width = width + "px";
+    canvas.style.height = height + "px";
+
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.scale(ratio, ratio);
+
+    ctx.lineWidth = 3.5;
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
+    ctx.strokeStyle = "#000000";
+}
+
+resizeCanvasHD();
+window.addEventListener("resize", resizeCanvasHD);
+/* Tanda Tangan */
+let drawing = false;
+let lastX = 0;
+let lastY = 0;
+
+function getPos(e) {
+    const rect = canvas.getBoundingClientRect();
+    if (e.touches) {
+        return {
+            x: e.touches[0].clientX - rect.left,
+            y: e.touches[0].clientY - rect.top
+        };
+    }
+    return {
+        x: e.clientX - rect.left,
+        y: e.clientY - rect.top
+    };
+}
+
+/* Mouse */
+canvas.addEventListener("mousedown", e => {
+    drawing = true;
+    const pos = getPos(e);
+    lastX = pos.x;
+    lastY = pos.y;
+});
+
+canvas.addEventListener("mousemove", e => {
+    if (!drawing) return;
+    const pos = getPos(e);
+    ctx.beginPath();
+    ctx.moveTo(lastX, lastY);
+    ctx.lineTo(pos.x, pos.y);
+    ctx.stroke();
+    lastX = pos.x;
+    lastY = pos.y;
+});
+
+canvas.addEventListener("mouseup", () => drawing = false);
+canvas.addEventListener("mouseleave", () => drawing = false);
+
+/* Touch */
+canvas.addEventListener("touchstart", e => {
+    e.preventDefault();
+    drawing = true;
+    const pos = getPos(e);
+    lastX = pos.x;
+    lastY = pos.y;
+});
+
+canvas.addEventListener("touchmove", e => {
+    e.preventDefault();
+    if (!drawing) return;
+    const pos = getPos(e);
+    ctx.beginPath();
+    ctx.moveTo(lastX, lastY);
+    ctx.lineTo(pos.x, pos.y);
+    ctx.stroke();
+    lastX = pos.x;
+    lastY = pos.y;
+});
+
+canvas.addEventListener("touchend", () => drawing = false);
+
+function clearPad() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
+function saveSignature() {
+    document.getElementById("ttd_base64").value =
+        canvas.toDataURL("image/png");
+}
+</script>
+
+</body>
+</html>
